@@ -1,13 +1,13 @@
 # PocketMod Converter
 
-Python script to convert a PDF into a PocketMod formated PDF.
-This is a modification of: https://github.com/mullinscr/pocketmod-creator
+Python script to convert a PDF into a PocketMod formated PDF.  
+This is a modification of: https://github.com/mullinscr/pocketmod-creator  
 Changes will be lised below in the modification section.
 
 ![usage example](media/explainer.png)
 
 ## What is a PocketMod?
-PocketMod is a website and freeware program that helps make 8-paged mini-booklets and organizers out of a single sheet of paper.
+PocketMod is a website and freeware program that helps make 8-paged mini-booklets and organizers out of a single sheet of paper.  
 See [pocketmod.com](https://pocketmod.com/) or search online for "PocketMod"
 for more information.
 
@@ -58,10 +58,10 @@ $ python pocketmod_converter.py some/other/location/input.pdf
 
 #### For multiple file inputs
 Create a folder in the same directory and put all pdfs in the folder.  
-Simply change the `input.pdf` to your folders name and then the script will convert all pdf files in the folder.
+Simply change `input.pdf` to the folder's name and then the script will convert all pdf files in the folder.
 
 ## Trouble shooting
-You may run in to an error with PyPDF2 when the pdf contain special characters.
+You may run into an error with PyPDF2 when the pdf contain special characters.
 ```
 unicodeencodeerror: 'latin-1' codec can't encode characters in position 8-11: ordinal not in range(256)
 ```
